@@ -1,21 +1,6 @@
-# Overview
 
-In this assignment, you will be developing a concurrent web server. To
-simplify this project, we are providing you with the code for a non-concurrent
-(but working) web server. This basic web server operates with only a single
-thread; it will be your job to make the web server multi-threaded so that it
-can handle multiple requests at the same time.
-
-The goals of this project are:
-- To learn the basic architecture of a simple web server
-- To learn how to add concurrency to a non-concurrent system
-- To learn how to read and modify an existing code base effectively
-
-Useful reading from [OSTEP](http://ostep.org) includes:
-- [Intro to threads](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf)
-- [Using locks](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf)
-- [Producer-consumer relationships](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf)
-- [Server concurrency architecture](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-events.pdf)
+# Sample Execution
+![ezgif com-gif-maker(1)](https://user-images.githubusercontent.com/79598598/172229768-7a457f85-24a3-4d72-b57a-c0ce8b20cdca.gif)
 
 # HTTP Background
 
