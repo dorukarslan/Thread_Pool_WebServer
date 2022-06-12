@@ -4,17 +4,7 @@
 
 # HTTP Background
 
-Before describing what you will be implementing in this project, we will
-provide a very brief overview of how a classic web server works, and the HTTP
-protocol (version 1.0) used to communicate with it; although web browsers and
-servers have [evolved a lot over the
-years](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP),
-the old versions still work and give you a good start in understanding how
-things work. Our goal in providing you with a basic web server is that you can
-be shielded from learning all of the details of network connections and the
-HTTP protocol needed to do the project; however, the network code has been
-greatly simplified and is fairly understandable should you choose to to study
-it.
+
 
 Classic web browsers and web servers interact using a text-based protocol
 called **HTTP** (**Hypertext Transfer Protocol**). A web browser opens a
@@ -26,9 +16,7 @@ HTTP is built on top of the **TCP/IP** protocol suite provided by the
 operating system. Together, TPC and IP ensure that messages are routed to
 their correct destination, get from source to destination reliably in the face
 of failure, and do not overly congest the network by sending too many messages
-at once, among other features. To learn more about networks, take a networking
-class (or many!), or read [this free book](https://book.systemsapproach.org).
-
+at once, among other features. 
 Each piece of content on the web server is associated with a file in the
 server's file system. The simplest is *static* content, in which a client
 sends a request just to read a specific file from the server. Slightly more
